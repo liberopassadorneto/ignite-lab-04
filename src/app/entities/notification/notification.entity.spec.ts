@@ -1,4 +1,4 @@
-import { Notification } from './index';
+import { Notification } from './notification.entity';
 import { Content } from './content';
 
 describe('Notification', () => {
