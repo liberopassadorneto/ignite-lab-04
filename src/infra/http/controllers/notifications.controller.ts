@@ -7,7 +7,6 @@ import { ReadNotificationUseCase } from '@app/use-cases/read-notification/read-n
 import { UnreadNotificationUseCase } from '@app/use-cases/unread-notification/unread-notification';
 import { GetNotificationsByRecipientUseCase } from '@app/use-cases/get-notifications-by-recipient/get-notifications-by-recipient';
 import { CountNotificationsByRecipientUseCase } from '@app/use-cases/count-notifications-by-recipient/count-notifications-by-recipient';
-import { Notification } from '@app/entities/notification/notification.entity';
 
 @Controller('notifications')
 export class NotificationsController {
